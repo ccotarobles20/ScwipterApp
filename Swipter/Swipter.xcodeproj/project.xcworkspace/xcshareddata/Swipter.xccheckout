@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6E6B0F6E-C97F-4154-8B16-14189B4957D6</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Swipter</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C2471388-F34D-49D1-8FEB-75E3B39E695C</key>
+		<string>https://github.com/ccotarobles20/Scwipter.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Swipter.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C2471388-F34D-49D1-8FEB-75E3B39E695C</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ccotarobles20/Scwipter.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C2471388-F34D-49D1-8FEB-75E3B39E695C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C2471388-F34D-49D1-8FEB-75E3B39E695C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Swipter</string>
+		</dict>
+	</array>
+</dict>
+</plist>

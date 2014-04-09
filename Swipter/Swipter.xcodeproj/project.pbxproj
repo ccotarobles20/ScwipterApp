@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C336344118D62EE800DEC423 /* ccrHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = C336344018D62EE800DEC423 /* ccrHeader.m */; };
+		C3438AB318AD9BB100537195 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3438AB218AD9BB100537195 /* UIKit.framework */; };
+		C3438AB518AD9BB100537195 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3438AB418AD9BB100537195 /* Foundation.framework */; };
+		C3438AB718AD9BB200537195 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3438AB618AD9BB100537195 /* CoreGraphics.framework */; };
+		C3438ABD18AD9BB200537195 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3438ABB18AD9BB200537195 /* InfoPlist.strings */; };
+		C3438ABF18AD9BB200537195 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3438ABE18AD9BB200537195 /* main.m */; };
+		C3438AC318AD9BB200537195 /* ccrAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3438AC218AD9BB200537195 /* ccrAppDelegate.m */; };
+		C3438AC518AD9BB200537195 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C3438AC418AD9BB200537195 /* Default.png */; };
+		C3438AC718AD9BB200537195 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3438AC618AD9BB200537195 /* Default@2x.png */; };
+		C3438AC918AD9BB200537195 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3438AC818AD9BB200537195 /* Default-568h@2x.png */; };
+		C3438ACC18AD9BB200537195 /* ccrViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3438ACB18AD9BB200537195 /* ccrViewController.m */; };
+		C3438ACF18AD9BB200537195 /* ccrViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3438ACD18AD9BB200537195 /* ccrViewController_iPhone.xib */; };
+		C3438AD218AD9BB200537195 /* ccrViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3438AD018AD9BB200537195 /* ccrViewController_iPad.xib */; };
+		C3438ADA18AD9C7F00537195 /* ccrTextItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C3438AD918AD9C7F00537195 /* ccrTextItem.m */; };
+		C34A7E4C18BD37660076417A /* ccrMenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C34A7E4B18BD37660076417A /* ccrMenuButton.m */; };
+		C3B3414D18D37C8000EAC7BC /* ccrMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3B3414B18D37C8000EAC7BC /* ccrMainViewController.xib */; };
+		C3B3415618D3825100EAC7BC /* ccrMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B3415518D3825100EAC7BC /* ccrMainViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C336343F18D62EE800DEC423 /* ccrHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ccrHeader.h; sourceTree = "<group>"; };
+		C336344018D62EE800DEC423 /* ccrHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ccrHeader.m; sourceTree = "<group>"; };
+		C3438AAF18AD9BB100537195 /* Swipter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swipter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3438AB218AD9BB100537195 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C3438AB418AD9BB100537195 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C3438AB618AD9BB100537195 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C3438ABA18AD9BB200537195 /* Swipter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Swipter-Info.plist"; sourceTree = "<group>"; };
+		C3438ABC18AD9BB200537195 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C3438ABE18AD9BB200537195 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C3438AC018AD9BB200537195 /* Swipter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Swipter-Prefix.pch"; sourceTree = "<group>"; };
+		C3438AC118AD9BB200537195 /* ccrAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ccrAppDelegate.h; sourceTree = "<group>"; };
+		C3438AC218AD9BB200537195 /* ccrAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ccrAppDelegate.m; sourceTree = "<group>"; };
+		C3438AC418AD9BB200537195 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C3438AC618AD9BB200537195 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C3438AC818AD9BB200537195 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C3438ACA18AD9BB200537195 /* ccrViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ccrViewController.h; sourceTree = "<group>"; };
+		C3438ACB18AD9BB200537195 /* ccrViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ccrViewController.m; sourceTree = "<group>"; };
+		C3438ACE18AD9BB200537195 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ccrViewController_iPhone.xib; sourceTree = "<group>"; };
+		C3438AD118AD9BB200537195 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ccrViewController_iPad.xib; sourceTree = "<group>"; };
+		C3438AD818AD9C7F00537195 /* ccrTextItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ccrTextItem.h; sourceTree = "<group>"; };
+		C3438AD918AD9C7F00537195 /* ccrTextItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ccrTextItem.m; sourceTree = "<group>"; };
+		C34A7E4A18BD37660076417A /* ccrMenuButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ccrMenuButton.h; sourceTree = "<group>"; };
+		C34A7E4B18BD37660076417A /* ccrMenuButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ccrMenuButton.m; sourceTree = "<group>"; };
+		C3B3414B18D37C8000EAC7BC /* ccrMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ccrMainViewController.xib; sourceTree = "<group>"; };
+		C3B3415418D3825100EAC7BC /* ccrMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ccrMainViewController.h; sourceTree = "<group>"; };
+		C3B3415518D3825100EAC7BC /* ccrMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ccrMainViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3438AAC18AD9BB100537195 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3438AB318AD9BB100537195 /* UIKit.framework in Frameworks */,
+				C3438AB518AD9BB100537195 /* Foundation.framework in Frameworks */,
+				C3438AB718AD9BB200537195 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3438AA618AD9BB100537195 = {
+			isa = PBXGroup;
+			children = (
+				C3438AB818AD9BB200537195 /* Swipter */,
+				C3438AB118AD9BB100537195 /* Frameworks */,
+				C3438AB018AD9BB100537195 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3438AB018AD9BB100537195 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3438AAF18AD9BB100537195 /* Swipter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3438AB118AD9BB100537195 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3438AB218AD9BB100537195 /* UIKit.framework */,
+				C3438AB418AD9BB100537195 /* Foundation.framework */,
+				C3438AB618AD9BB100537195 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3438AB818AD9BB200537195 /* Swipter */ = {
+			isa = PBXGroup;
+			children = (
+				C3438AC118AD9BB200537195 /* ccrAppDelegate.h */,
+				C3438AC218AD9BB200537195 /* ccrAppDelegate.m */,
+				C3B3415418D3825100EAC7BC /* ccrMainViewController.h */,
+				C3B3415518D3825100EAC7BC /* ccrMainViewController.m */,
+				C3438ACA18AD9BB200537195 /* ccrViewController.h */,
+				C3438ACB18AD9BB200537195 /* ccrViewController.m */,
+				C34A7E4A18BD37660076417A /* ccrMenuButton.h */,
+				C34A7E4B18BD37660076417A /* ccrMenuButton.m */,
+				C3438AD818AD9C7F00537195 /* ccrTextItem.h */,
+				C3438AD918AD9C7F00537195 /* ccrTextItem.m */,
+				C336343F18D62EE800DEC423 /* ccrHeader.h */,
+				C336344018D62EE800DEC423 /* ccrHeader.m */,
+				C3B3414B18D37C8000EAC7BC /* ccrMainViewController.xib */,
+				C3438ACD18AD9BB200537195 /* ccrViewController_iPhone.xib */,
+				C3438AD018AD9BB200537195 /* ccrViewController_iPad.xib */,
+				C3438AB918AD9BB200537195 /* Supporting Files */,
+			);
+			path = Swipter;
+			sourceTree = "<group>";
+		};
+		C3438AB918AD9BB200537195 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3438ABA18AD9BB200537195 /* Swipter-Info.plist */,
+				C3438ABB18AD9BB200537195 /* InfoPlist.strings */,
+				C3438ABE18AD9BB200537195 /* main.m */,
+				C3438AC018AD9BB200537195 /* Swipter-Prefix.pch */,
+				C3438AC418AD9BB200537195 /* Default.png */,
+				C3438AC618AD9BB200537195 /* Default@2x.png */,
+				C3438AC818AD9BB200537195 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3438AAE18AD9BB100537195 /* Swipter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3438AD518AD9BB200537195 /* Build configuration list for PBXNativeTarget "Swipter" */;
+			buildPhases = (
+				C3438AAB18AD9BB100537195 /* Sources */,
+				C3438AAC18AD9BB100537195 /* Frameworks */,
+				C3438AAD18AD9BB100537195 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Swipter;
+			productName = Swipter;
+			productReference = C3438AAF18AD9BB100537195 /* Swipter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3438AA718AD9BB100537195 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ccr;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Carl Cota-Robles";
+			};
+			buildConfigurationList = C3438AAA18AD9BB100537195 /* Build configuration list for PBXProject "Swipter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C3438AA618AD9BB100537195;
+			productRefGroup = C3438AB018AD9BB100537195 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3438AAE18AD9BB100537195 /* Swipter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3438AAD18AD9BB100537195 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3438ABD18AD9BB200537195 /* InfoPlist.strings in Resources */,
+				C3B3414D18D37C8000EAC7BC /* ccrMainViewController.xib in Resources */,
+				C3438AC518AD9BB200537195 /* Default.png in Resources */,
+				C3438AC718AD9BB200537195 /* Default@2x.png in Resources */,
+				C3438AC918AD9BB200537195 /* Default-568h@2x.png in Resources */,
+				C3438ACF18AD9BB200537195 /* ccrViewController_iPhone.xib in Resources */,
+				C3438AD218AD9BB200537195 /* ccrViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3438AAB18AD9BB100537195 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3438ABF18AD9BB200537195 /* main.m in Sources */,
+				C336344118D62EE800DEC423 /* ccrHeader.m in Sources */,
+				C3438AC318AD9BB200537195 /* ccrAppDelegate.m in Sources */,
+				C3B3415618D3825100EAC7BC /* ccrMainViewController.m in Sources */,
+				C3438ACC18AD9BB200537195 /* ccrViewController.m in Sources */,
+				C3438ADA18AD9C7F00537195 /* ccrTextItem.m in Sources */,
+				C34A7E4C18BD37660076417A /* ccrMenuButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C3438ABB18AD9BB200537195 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3438ABC18AD9BB200537195 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C3438ACD18AD9BB200537195 /* ccrViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3438ACE18AD9BB200537195 /* en */,
+			);
+			name = ccrViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		C3438AD018AD9BB200537195 /* ccrViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3438AD118AD9BB200537195 /* en */,
+			);
+			name = ccrViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3438AD318AD9BB200537195 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C3438AD418AD9BB200537195 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3438AD618AD9BB200537195 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Swipter/Swipter-Prefix.pch";
+				INFOPLIST_FILE = "Swipter/Swipter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C3438AD718AD9BB200537195 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Swipter/Swipter-Prefix.pch";
+				INFOPLIST_FILE = "Swipter/Swipter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3438AAA18AD9BB100537195 /* Build configuration list for PBXProject "Swipter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3438AD318AD9BB200537195 /* Debug */,
+				C3438AD418AD9BB200537195 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3438AD518AD9BB200537195 /* Build configuration list for PBXNativeTarget "Swipter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3438AD618AD9BB200537195 /* Debug */,
+				C3438AD718AD9BB200537195 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3438AA718AD9BB100537195 /* Project object */;
+}
