@@ -90,13 +90,13 @@
     [currentTextBox becomeFirstResponder];
     [header initializeFrames];
     
-    NSInteger keyboardHeight;
-    keyboardHeight = [UIKeyboardFrameBeginUserInfoKey integerValue];
-    NSLog(@"HEIGHT %ld ", (long)keyboardHeight);
+    //NSInteger keyboardHeight;
+    //keyboardHeight = [UIKeyboardFrameBeginUserInfoKey integerValue];
+    //NSLog(@"HEIGHT %ld ", (long)keyboardHeight);
     
-    NSInteger keyboardHeight2;
-    keyboardHeight2 = [UIKeyboardFrameEndUserInfoKey integerValue];
-    NSLog(@"HEIGHT 2 %ld ", (long)keyboardHeight2);
+    //NSInteger keyboardHeight2;
+    //keyboardHeight2 = [UIKeyboardFrameEndUserInfoKey integerValue];
+    //NSLog(@"HEIGHT 2 %ld ", (long)keyboardHeight2);
 
     
     // Edit the frames of all important elements.
